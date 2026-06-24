@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القائمة | Coffee Prince</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">☕ Coffee Prince</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="about.html" class="nav-link">عن المشروع</a></li>
+                <li><a href="menu.html" class="nav-link active">القائمة</a></li>
+                <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Hero -->
+    <section class="menu-hero">
+        <div class="menu-hero-content">
+            <h1>قائمتنا</h1>
+            <p>اكتشف تشكيلتنا الفريدة من المشروبات والمأكولات</p>
+        </div>
+    </section>
+
+    <!-- Menu Content -->
+    <section class="menu-content">
+        <div class="container">
+            <!-- Category Filters -->
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="hot">مشروبات ساخنة</button>
+                <button class="filter-btn" data-filter="cold">مشروبات باردة</button>
+                <button class="filter-btn" data-filter="food">الطعام والحلويات</button>
+            </div>
+
+            <!-- Menu Items Grid -->
+            <div class="menu-grid">
+                <!-- Hot Drinks -->
+                <div class="menu-item" data-category="hot">
+                    <div class="item-header">
+                        <h3>الإسبريسو</h3>
+                        <span class="price">18 ريال</span>
+                    </div>
+                    <p class="description">قهوة إيطالية قوية مركزة، قهوة نقية بدون إضافات</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">ساخن</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="hot">
+                    <div class="item-header">
+                        <h3>أمريكانو</h3>
+                        <span class="price">20 ريال</span>
+                    </div>
+                    <p class="description">إسبريسو مخفف بماء ساخن، طعم غني وناعم</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">ساخن</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="hot">
+                    <div class="item-header">
+                        <h3>كابتشينو</h3>
+                        <span class="price">25 ريال</span>
+                    </div>
+                    <p class="description">إسبريسو مع حليب مبخر وطبقة من الرغوة الناعمة</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">حليب</span>
+                        <span class="tag">ساخن</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="hot">
+                    <div class="item-header">
+                        <h3>لاتيه</h3>
+                        <span class="price">25 ريال</span>
+                    </div>
+                    <p class="description">إسبريسو مع كمية كبيرة من الحليب المبخر وطبقة رغوة</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">حليب</span>
+                        <span class="tag">ساخن</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="hot">
+                    <div class="item-header">
+                        <h3>القهوة المقطرة</h3>
+                        <span class="price">22 ريال</span>
+                    </div>
+                    <p class="description">قهوة طازة تم تقطيرها بعناية عالية، طعم نقي وأصيل</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">مختصة</span>
+                        <span class="tag">ساخن</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="hot">
+                    <div class="item-header">
+                        <h3>موكا</h3>
+                        <span class="price">28 ريال</span>
+                    </div>
+                    <p class="description">قهوة مع الشوكولاتة والحليب، طعم غني وحلو</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">شوكولاتة</span>
+                        <span class="tag">ساخن</span>
+                    </div>
+                </div>
+
+                <!-- Cold Drinks -->
+                <div class="menu-item" data-category="cold">
+                    <div class="item-header">
+                        <h3>آيس كافيه</h3>
+                        <span class="price">22 ريال</span>
+                    </div>
+                    <p class="description">قهوة باردة مع الثلج والحليب، منعشة وسلسة</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">بارد</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="cold">
+                    <div class="item-header">
+                        <h3>كولد برو</h3>
+                        <span class="price">24 ريال</span>
+                    </div>
+                    <p class="description">قهوة مخمرة بارداً طول الليل، طعم سلس وغني</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">مختصة</span>
+                        <span class="tag">بارد</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="cold">
+                    <div class="item-header">
+                        <h3>فراب كافيه</h3>
+                        <span class="price">26 ريال</span>
+                    </div>
+                    <p class="description">قهوة مخفوقة مع الثلج والحليب والكريمة</p>
+                    <div class="tags">
+                        <span class="tag">قهوة</span>
+                        <span class="tag">كريمي</span>
+                        <span class="tag">بارد</span>
+                    </div>
+                </div>
+
+                <!-- Food & Desserts -->
+                <div class="menu-item" data-category="food">
+                    <div class="item-header">
+                        <h3>كعكة الشوكولاتة</h3>
+                        <span class="price">18 ريال</span>
+                    </div>
+                    <p class="description">كعكة شوكولاتة غنية وناعمة، شهية جداً</p>
+                    <div class="tags">
+                        <span class="tag">حلويات</span>
+                        <span class="tag">شوكولاتة</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="food">
+                    <div class="item-header">
+                        <h3>كرواسون</h3>
+                        <span class="price">15 ريال</span>
+                    </div>
+                    <p class="description">كرواسون فرنسي طازج، طعم زبدة رائع</p>
+                    <div class="tags">
+                        <span class="tag">معجنات</span>
+                        <span class="tag">إفطار</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="food">
+                    <div class="item-header">
+                        <h3>كيك الجزر</h3>
+                        <span class="price">16 ريال</span>
+                    </div>
+                    <p class="description">كيك الجزر بالكريمة والجوز، صحي وشهي</p>
+                    <div class="tags">
+                        <span class="tag">حلويات</span>
+                        <span class="tag">صحي</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="food">
+                    <div class="item-header">
+                        <h3>سندويتش الدجاج</h3>
+                        <span class="price">20 ريال</span>
+                    </div>
+                    <p class="description">سندويتش طازج بالدجاج والخضار والصلصة الخاصة</p>
+                    <div class="tags">
+                        <span class="tag">طعام</span>
+                        <span class="tag">غداء</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Coffee Prince</h3>
+                    <p>تجربة القهوة المختصة في أجواء فاخرة</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">عن المشروع</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تابعنا</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Coffee Prince. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
